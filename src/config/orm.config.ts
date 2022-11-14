@@ -1,5 +1,5 @@
 import { DataSource, DataSourceOptions } from 'typeorm'
-import { Member } from '../../server/services/member.entity'
+import { Member } from '../../server/services/member/member.entity'
 
 const mainOptions: DataSourceOptions = {
   type: 'mysql',

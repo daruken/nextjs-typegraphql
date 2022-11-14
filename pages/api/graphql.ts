@@ -3,7 +3,7 @@ import { NextApiRequest, NextApiResponse } from 'next'
 import { ApolloServer } from 'apollo-server-micro'
 import { buildSchema, Query, Resolver } from 'type-graphql'
 import { AppDataSource } from '../../src/config/orm.config'
-import { MemberResolver } from '../../server/services/member.resolver'
+import { MemberResolver } from '../../server/services/member/member.resolver'
 
 @Resolver()
 class HelloResolver {
